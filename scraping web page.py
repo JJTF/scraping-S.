@@ -52,8 +52,8 @@ import pandas as pd
 os.chdir(r"D:\INDECOPI\bases_xlsx")
 # Aqui poner el archivo excel. Este debe tener una columna de proveedor sucio (la primera)
 # y se debe colocar el cursor en la segunda columna fila 2 (luego del encabezado)
-f = pd.read_excel('proveedor sucio 8va busqueda.xlsx')
-a = f['Proveedor_sucio'].values
+f = pd.read_excel('nombre.xlsx')
+a = f['name_variable'].values
 
 def change(t):
     t = t.lower()
